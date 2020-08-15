@@ -1,0 +1,11 @@
+version: "3"
+services:
+  symsymlog:
+    container_name: symsymlog
+    image: react
+    build: .
+    volumes:
+      - ./:/app
+    tty: true
+    ports:
+     - 2508:2508
