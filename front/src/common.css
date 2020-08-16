@@ -1,0 +1,43 @@
+body {
+  background-color: silver;
+}
+
+.Header {
+  margin: 30px 100px 0px 100px;
+  padding: 50px;
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+}
+
+.Entry {
+  margin: 0px 100px 0px 100px;
+  padding: 20px;
+  background-color: white;
+  color: darkslategray;
+}
+
+.EntryHeader {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.EntryBody {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  white-space: pre-line;
+}
+
+.EntryFooter {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: smaller;
+}
+
+.Footer {
+  margin: 0px 100px 30px 100px;
+  padding: 30px;
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+}
