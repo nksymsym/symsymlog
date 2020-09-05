@@ -28,6 +28,15 @@ body {
   white-space: pre-line;
 }
 
+.EntryBody > h1,
+.EntryBody > h2,
+.EntryBody > h3,
+.EntryBody > h4,
+.EntryBody > h5,
+.EntryBody > h6 {
+  font-size: larger;
+}
+
 .EntryFooter {
   margin-top: 0px;
   margin-bottom: 0px;
