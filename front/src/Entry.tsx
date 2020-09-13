@@ -3,7 +3,13 @@ import ReactMarkdown from 'react-markdown/with-html';
 import './common.css';
 
 // interface Props {
-//   body: string;
+//   id: string,
+//   title: string,
+//   body: string,
+//   published_at: Date,
+//   updated_at: Date,
+//   previous_id: string,
+//   next_id: string,
 // }
 
 export default class Entry extends React.Component {
