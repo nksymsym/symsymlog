@@ -1,11 +1,24 @@
-version: "3"
+version: '3'
 services:
-  symsymlog:
-    container_name: symsymlog
-    image: react
-    build: .
+  symsymlog-front:
+    container_name: symsymlog-front
+    image: symsymlog-front-dev
+    build: ./
     volumes:
-      - ./:/app
+      - ./front:/app/front
     tty: true
+    working_dir: /app/front
+    links:
+      - symsymlog-back
     ports:
-     - 2508:2508
+      - 2508:2508
+  symsymlog-back:
+    container_name: symsymlog-back
+    image: symsymlog-back-dev
+    build: ./
+    volumes:
+      - ./back:/app/back
+    tty: true
+    working_dir: /app/back
+    ports:
+      - 2509:2509

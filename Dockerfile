@@ -1,3 +1,3 @@
-FROM node:14.8.0
+FROM node:12.18.3
 ENV NODE_ENV=development
 WORKDIR /app
